@@ -368,17 +368,20 @@ button {
     width: 50%;
     float: left;
     font-size: 50px;
-    color: #ffffff;
+    color: #000000;
     font-weight: bold;
-    font-family: 'Raleway ExtraBold', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
     padding-top: 40px;
 }
 
 .banner_text {
     width: 100%;
     float: left;
-    font-size: 16px;
-    color: #ffffff;
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
     margin: 0px;
 }
 
@@ -457,7 +460,7 @@ button {
 .cycle_text {
     width: 100%;
     float: left;
-    font-size: 16px;
+    font-size: 20px;
     color: #242424;
     text-align: center;
     margin: 0px;
@@ -466,45 +469,19 @@ button {
     width: 100%;
     float: left;
 }
-.box_main{
-    width: 100%;
-    float: left;
-    position: relative;
-}
-.number_text {
-    width: 50px;
-    height: 50px;
-    font-size: 18px;
-    color: #ffffff;
-    background-color: #325662;
-    border-radius: 100px;
-    text-align: center;
-    padding: 10px 0px;
-    float: right;
-    margin-right: 140px;
-    margin-top: 60px;
-}
+
+
 .image_2 {
-    width: 100%;
+    width: 700px;
     float: left;
     text-align: center;
     padding-left: 100px;
+    margin-top: -80px; 
+    margin-left: -80px;
 }
-.box_main:after{
-    content: '';
-    background-color: #f7c17b;
-    position: absolute;
-    width: 420px;
-    right: 0px;
-    top: 0px;
-    margin: 0 auto;
-    display: flex;
-    height: 600px;
-    left: 0;
-    z-index: -1;
-clip-path: polygon(0 0, 75% 8%, 75% 80%, 0% 100%);
 
-}
+
+
 .cycles_text{
     width: 100%;
     float: left;
@@ -528,7 +505,7 @@ clip-path: polygon(0 0, 75% 8%, 75% 80%, 0% 100%);
 .lorem_text{
     width: 100%;
     float: left;
-    font-size: 16px;
+    font-size: 24px;
     color: #1c1c1c;
     margin: 0px; 
     padding-top: 40px;   
@@ -577,19 +554,7 @@ clip-path: polygon(0 0, 75% 8%, 75% 80%, 0% 100%);
     float: left;
     position: relative;
 }
-.box_main_3:after {
-    content: '';
-    background-color: #f7c17b;
-    position: absolute;
-    width: 420px;
-    right: 0px;
-    top: 0px;
-    margin: 0 auto;
-    display: flex;
-    height: 530px;
-    left: 0;
-    z-index: -1;
-    clip-path: polygon(0 0, 65% 8%, 64% 80%, 0% 100%);
+
 }
 .number_text_2 {
     width: 50px;
@@ -1141,3 +1106,5 @@ textarea#comment::placeholder {
 }
 
 /* contact section end*/
+
+

@@ -8,13 +8,13 @@
                <div class="container">
                   <div class="row">
                      <div class="col-md-7">
-                        <div class="best_text">Best</div>
+                        <div class="best_text">30 KM</div>
                         <div class="image_1"><img src="{{ url_for('static', filename='images/img-1.png') }}"></div>
                      </div>
                      <div class="col-md-5">
-                        <h1 class="banner_taital">New Model Cycle</h1>
-                        <p class="banner_text">It is a long established fact that a reader will be distracted by the readable content </p>
-                        <div class="contact_bt"><a href="{{ url_for('contact') }}">Shop Now</a></div>
+                        <h1 class="banner_taital">MTB RURAL TANDIL 2025 </h1>
+                        <p class="banner_text">Viví la aventura del ciclismo de montaña en los paisajes únicos de Tandil</p>
+                        <div class="contact_bt"><a href="{{ url_for('contact') }}">INSCRIBITE</a></div>
                      </div>
                   </div>
                </div>
@@ -23,28 +23,13 @@
                <div class="container">
                   <div class="row">
                      <div class="col-md-7">
-                        <div class="best_text">Best</div>
+                        <div class="best_text">80 KM</div>
                         <div class="image_1"><img src="{{ url_for('static', filename='images/img-1.png') }}"></div>
                      </div>
                      <div class="col-md-5">
-                        <h1 class="banner_taital">New Model Cycle</h1>
-                        <p class="banner_text">It is a long established fact that a reader will be distracted by the readable content </p>
-                        <div class="contact_bt"><a href="{{ url_for('contact') }}">Shop Now</a></div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="carousel-item">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-7">
-                        <div class="best_text">Best</div>
-                        <div class="image_1"><img src="{{ url_for('static', filename='images/img-1.png') }}"></div>
-                     </div>
-                     <div class="col-md-5">
-                        <h1 class="banner_taital">New Model Cycle</h1>
-                        <p class="banner_text">It is a long established fact that a reader will be distracted by the readable content </p>
-                        <div class="contact_bt"><a href="{{ url_for('contact') }}">Shop Now</a></div>
+                        <h1 class="banner_taital">CLUB UNIDOS POR EL DEPORTE</h1>
+                        <p class="banner_text">te invita al gran evento de MTB Rural en Tandil. Elegí tu desafío </p>
+                        <div class="contact_bt"><a href="{{ url_for('contact') }}">INSCRIBITE</a></div>
                      </div>
                   </div>
                </div>
@@ -63,22 +48,23 @@
    <!-- cycle section start -->
    <div class="cycle_section layout_padding">
       <div class="container">
-         <h1 class="cycle_taital">Our cycle</h1>
-         <p class="cycle_text">It is a long established fact that a reader will be distracted by the </p>
+         <h1 class="cycle_taital">CONOCE MAS...</h1>
+         <p class="cycle_text">"24 Oct 2025 - 8:00 AM | Tandil, Buenos Aires Dos distancias: 30km Corta y 80km Larga. </p>
          <div class="cycle_section_2 layout_padding">
             <div class="row">
                <div class="col-md-6">
                   <div class="box_main">
-                     <h6 class="number_text">01</h6>
-                     <div class="image_2"><img src="{{ url_for('static', filename='images/img-2.png') }}"></div>
+                     <h6 class="number_text"></h6>
+                     <div class="image_2"><img src="{{ url_for('static', filename='images/deslinfoto.png') }}"></div>
                   </div>
                </div>
                <div class="col-md-6">
-                  <h1 class="cycles_text">Cycles</h1>
-                  <p class="lorem_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+                  <h1 class="cycles_text">DESLINDE</h1>
+                  <p class="lorem_text"> ⚠️ Documentación Requerida Para tu seguridad y la nuestra, 
+                     todos los participantes deben presentar este documento firmado antes del inicio de la competencia.</p>
                   <div class="btn_main">
-                     <div class="buy_bt"><a href="#">Buy Now</a></div>
-                     <h4 class="price_text">Price <span style=" color: #f7c17b">$</span> <span style=" color: #325662">200</span></h4>
+                     <div class="read_bt"><a href="{{ url_for('static', filename='images/deslinde.pdf') }}">DESCARGAR</a></div>
+                     <h4 class="price_text"><span style=" color: #f7c17b"></span> <span style=" color: #325662"></span></h4>
                   </div>
                </div>
             </div>
@@ -86,17 +72,24 @@
          <div class="cycle_section_3 layout_padding">
             <div class="row">
                <div class="col-md-6">
-                  <h1 class="cycles_text">Stylis Cycle</h1>
-                  <p class="lorem_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+                  <h1 class="cycles_text">KIT DE CARRERA</h1>
+                  <p class="lorem_text">Tu Pack de Corredor MTB Incluye:</p>
+                     <ul class="lorem_text">
+        <li>•Camiseta técnica oficial del evento</li>
+        <li>•Número de participante y fijaciones</li>
+        <li>•Medalla conmemorativa de finisher</li>
+        <li>•Productos de nuestros auspiciantes</li>
+        <li>•Número de emergencia y mapa de ruta</li>
+      </ul>
                   <div class="btn_main">
-                     <div class="buy_bt"><a href="#">Buy Now</a></div>
-                     <h4 class="price_text">Price <span style=" color: #f7c17b">$</span> <span style=" color: #325662">200</span></h4>
+                     <div class="buy_bt"><a href="{{ url_for('static', filename='images/kit_de_carrera.png') }}">Ver Kit</a></div>
+                     <h4 class="price_text"> <span style=" color: #f7c17b"></span> <span style=" color: #325662"></span></h4>
                   </div>
                </div>
                <div class="col-md-6">
                   <div class="box_main_3">
-                     <h6 class="number_text_2">02</h6>
-                     <div class="image_2"><img src="{{ url_for('static', filename='images/img-3.png') }}"></div>
+                     <h6 class="number_text_2"></h6>
+                     <div class="image_2"><img src="{{ url_for('static', filename='images/kitfoto.png') }}"style="margin-top: 70px;"></div>
                   </div>
                </div>
             </div>
@@ -105,22 +98,23 @@
             <div class="row">
                <div class="col-md-6">
                   <div class="box_main_3">
-                     <h6 class="number_text_2">03</h6>
-                     <div class="image_2"><img src="{{ url_for('static', filename='images/img-4.png') }}"></div>
+                     <h6 class="number_text_2"></h6>
+                     <div class="image_2"><img src="{{ url_for('static', filename='images/reglafoto.png') }}"></div>
                   </div>
                </div>
                <div class="col-md-6">
-                  <h1 class="cycles_text">Mordern <br>Cycle</h1>
-                  <p class="lorem_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+                  <h1 class="cycles_text">REGLAMENTO <br>MTB</h1>
+                  <p class="lorem_text">El reglamento establece las normas de participación, seguridad y convivencia durante el evento MTB Rural. Incluye pautas sobre la inscripción, uso obligatorio de casco, 
+                     respeto al entorno natural, señalización de la ruta y conducta deportiva. Su cumplimiento es obligatorio para todos los participantes.</p>
                   <div class="btn_main">
-                     <div class="buy_bt"><a href="#">Buy Now</a></div>
-                     <h4 class="price_text">Price <span style=" color: #f7c17b">$</span> <span style=" color: #325662">200</span></h4>
+                     <div class="buy_bt"><a href="{{ url_for('static', filename='images/reglamento.pdf') }}">LINK</a></div>
+                     <h4 class="price_text"><span style=" color: #f7c17b"></span> <span style=" color: #325662"></span></h4>
                   </div>
                </div>
             </div>
          </div>
          <div class="read_btn_main">
-            <div class="read_bt"><a href="#">Read More</a></div>
+            <div class="read_bt"><a href="#">INSCRIBITE</a></div>
          </div>
       </div>
    </div>
@@ -128,9 +122,8 @@
    <!-- about section start -->
    <div class="about_section layout_padding">
       <div class="container">
-         <h1 class="about_taital">About Our cycle Store</h1>
-         <p class="about_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
-         </p>
+         <h1 class="about_taital">Trazado y Puntos de Hidratación</h1>
+         <h4 class="about_text"> Explorá los trazados de ambas modalidades en el mapa interactivo al final. Ambos recorridos comparten la salida, llegada y los 3 puestos de hidratación</h4>
          <div class="about_main">
             <img src="{{ url_for('static', filename='images/img-5.png') }}" class="image_5">
          </div>
@@ -138,71 +131,7 @@
       </div>
    </div>
    <!-- about section end -->
-   <!-- client section start -->
-   <div class="client_section layout_padding">
-      <div id="my_slider" class="carousel slide" data-ride="carousel">
-         <div class="carousel-inner">
-            <div class="carousel-item active">
-               <div class="container">
-                  <div class="client_main">
-                     <h1 class="client_taital">Says Customers</h1>
-                     <div class="client_section_2">
-                        <div class="client_left">
-                           <div><img src="{{ url_for('static', filename='images/client-img.png') }}" class="client_img"></div>
-                        </div>
-                        <div class="client_right">
-                           <div class="quote_icon"><img src="{{ url_for('static', filename='images/quote-icon.png') }}"></div>
-                           <p class="client_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-                           <h3 class="client_name">Channery</h3>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="carousel-item">
-               <div class="container">
-                  <div class="client_main">
-                     <h1 class="client_taital">Says Customers</h1>
-                     <div class="client_section_2">
-                        <div class="client_left">
-                           <div><img src="{{ url_for('static', filename='images/client-img.png') }}" class="client_img"></div>
-                        </div>
-                        <div class="client_right">
-                           <div class="quote_icon"><img src="{{ url_for('static', filename='images/quote-icon.png') }}"></div>
-                           <p class="client_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-                           <h3 class="client_name">Channery</h3>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="carousel-item">
-               <div class="container">
-                  <div class="client_main">
-                     <h1 class="client_taital">Says Customers</h1>
-                     <div class="client_section_2">
-                        <div class="client_left">
-                           <div><img src="{{ url_for('static', filename='images/client-img.png') }}" class="client_img"></div>
-                        </div>
-                        <div class="client_right">
-                           <div class="quote_icon"><img src="{{ url_for('static', filename='images/quote-icon.png') }}"></div>
-                           <p class="client_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-                           <h3 class="client_name">Channery</h3>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="prev">
-            <i class="fa fa-angle-left"></i>
-         </a>
-         <a class="carousel-control-next" href="#my_slider" role="button" data-slide="next">
-           <i class="fa fa-angle-right"></i>
-         </a>
-      </div>
-   </div>
-   <!-- client section end -->
+ 
    <!-- news section start -->
    <div class="news_section layout_padding">
       <div class="container">
