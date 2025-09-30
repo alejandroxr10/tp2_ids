@@ -964,6 +964,8 @@ textarea#comment::placeholder {
     width: 170px;
     text-align: center;
     margin: 0px auto;
+    margin-top: 20px;
+
 }
 
 .send_btn a {
@@ -1031,6 +1033,26 @@ textarea#comment::placeholder {
 .subscribe_bt a:hover{
     color: #9e9c9c;
     background-color: #ffffff;
+}
+button.send_btn {
+    width: 170px;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 0px;
+    background-color: #f7c17b;
+    border-radius: 10px;
+    border: none;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: block;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+button.send_btn:hover {
+    color: #000;
+    background-color: #ffffff;
+    border: 1px solid #f7c17b;
 }
 
 .call_text a{
@@ -1127,7 +1149,7 @@ textarea#comment::placeholder {
 
 /* New Improved Footer Styling */
 footer .footer-container {
-    background-color: #2e7d32; /* Green for natural theme */
+    background-color: #355764;
     color: white;
     padding: 20px 40px;
     display: flex;
@@ -1165,7 +1187,8 @@ footer .footer-contact a:hover, footer .footer-social a:hover {
 footer .footer-copyright {
     width: 100%;
     margin-top: 20px;
-    border-top: 1px solid #4caf50; /* Lighter green separator */
+    background-color: #355764;
+
     padding-top: 10px;
     font-size: 0.9em;
 }
