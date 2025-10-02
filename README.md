@@ -32,5 +32,5 @@ templates/ 	 # Vistas HTML renderizadas con Jinja2
 	flask run
 
 
-Este proyecto fue desarrollado por manuel, Felipe y Alejandro
+Este proyecto fue desarrollado por Manuel, Felipe y Alejandro
 
