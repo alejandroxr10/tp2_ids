@@ -3,7 +3,7 @@ from flask_mail import Mail, Message
 import os
 
 app = Flask(__name__)
-app.secret_key = os.environ.get("FLASK_SECRET_KEY")
+app.secret_key = os.environ.get("FLASK_SECRET_KEY", "clave_secreta")
 
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
@@ -76,4 +76,4 @@ def contact():
     return render_template('contact.html')
 
 if __name__ == "__main__":
-    app.run("localhost", port=5000, debug=True)
+    app.run("localhost", port=8080, debug=True)
