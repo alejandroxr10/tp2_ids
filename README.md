@@ -19,7 +19,7 @@ static/		 # Archivos estáticos (CSS, JS, imágenes)
 templates/ 	 # Vistas HTML renderizadas con Jinja2
 .venv/ 		 # Entorno virtual (excluido del repo)
 .gitignore	 # Lista de Carpetas/Archivos que Git debe ignorar
-README.md
+
 
 ## Código:
 
@@ -32,5 +32,5 @@ README.md
 	flask run
 
 
-Este proyecto fue desarrollado por Alejandro
+Este proyecto fue desarrollado por manuel, Felipe y Alejandro
 
