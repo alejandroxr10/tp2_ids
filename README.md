@@ -23,10 +23,11 @@ README.md
 
 ## Código:
 
-	git clone https://github.com/forellano/tp2_ids.git
+	git clone https://github.com/alejandroxr10/tp2_ids
 	cd tp2_ids
 	python3 -m venv .venv
 	pip install python3 flask
+	pip install flask mail
 	source .venv/bin/activate 
 	pip install -r requirements.txt
 	flask run
